@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs & temporary files
+*.log
+*.tmp
+
+# Data folders (don’t upload large or private data)
+data/raw/
+data/processed/
+charts/
+
+# Environment and secrets
+.env
